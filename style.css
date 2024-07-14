@@ -1,0 +1,8 @@
+.centered-box {
+  margin: 0 auto;
+  width: fit-content;
+  padding: 20px;
+  border: 1px solid #FF2E2D2D;
+  text-align: center;
+}
+
