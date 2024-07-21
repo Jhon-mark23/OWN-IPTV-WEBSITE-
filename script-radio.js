@@ -10,6 +10,7 @@ const radio9 = new Audio('https://teleradyo-abscbn-ono.amagi.tv/playlist720_p.m3
 const radio10 = new Audio('http://stream-30.zeno.fm/sh37pvfd938uv?zs=9-6MPUdoSDuZq7riLOxKCg');
 const radio11 = new Audio('http://stream-12.zeno.fm/2ss1hgnu6hhvv?zs=zu9MieNWTsuFyoR5UOZSPw');
 const radio12 = new Audio('https://ph-icecast-win.eradioportal.com:8443/energyfm_manila');
+const radio13 = new Audio('http://stream.gmanews.tv/ioslive/livestream/playlist.m3u8');
 
 // selecting elements
 const prevBtn = document.querySelector('.previous');
@@ -32,6 +33,7 @@ const songs = [
   { ele: radio10, audioName: 'MAGIC 89.9'},
   { ele: radio11, audioName: 'WIN RADIO'},
   { ele: radio12, audioName: 'ENERGY FM'},
+  { ele: radio13, audioName: 'DZBB'},
 ];
 
 for(const song of songs) {
