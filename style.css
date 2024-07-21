@@ -1,22 +1,25 @@
  {
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: 10px;
   box-sizing: border-box;
   font-family: sans-serif;
 }
 
 body {
   background: #222;
-  display: 50%;
+  display: auto;
+  padding: 10px;
   justify-content: auto;
   align-items: 50%;
   min-height: 100vh;
 }
 body #video {
   width: 335px;
+  padding: 0px;
   height: auto;
   border-radius: 15px;
   float: auto;
+  margin: flex;
   box-shadow:
       0px 0px 10.4px rgba(0, 0, 0, 0.045),
       0px 0px 25.1px rgba(0, 0, 0, 0.065),
@@ -31,8 +34,8 @@ body {
 .box {
 						border: 3px solid #000; /* Black border */
 						padding: 20px; 
-						display: center; /* Space inside the border */
-						width: 290px;
+						display: auto; /* Space inside the border */
+						width: auto;
 						height: auto;          /* Width of the box */
 						margin: flex ;      /* Center the box */
 						border-radius: 15px;
@@ -43,10 +46,44 @@ body {
 				}
 .text-box {
 						border: 3px solid #000; /* Black border */
-						padding: 20px;          /* Space inside the border */
-						width: 290px;           /* Width of the box */
+						padding: 20px; 
+						display: auto; /* Space inside the border */
+						width: auto;
+						height: auto;          /* Width of the box */
 						margin: flex ;      /* Center the box */
 						border-radius: 15px;
-						text-align: center;     /* Center the text inside the box */
+						text-align: center;
+						text-height: 15px;
+						text-decoration: 10px;/* Center the text inside the box */
 						background-color: grey; /* Light gray background */
 				}
+	body{
+  margin: 0px;
+}
+main{
+  margin-left 30px;
+  margin-right: 30px;
+}
+h1{
+  text-align: center;
+}				
+	.navbar ul{
+	  list-style-type: none;
+	  background-color: Gray;
+	  padding: auto;
+	  margin: auto;
+	  overflow: hidden;
+	}
+	.navbar a{
+	  color: white;
+	  text-decoration: none;
+	  padding: 26px;
+	  display: block;
+	  text-align: center;
+	}
+.navbar a:hover{
+	  background-color: Gray;
+	}
+	.navbar li{
+	  float: left;
+	}			
