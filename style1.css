@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif;
+  background-color: #1c1c1c;
+  color: white;
+ width: auto;
+ padding: 1px;
+ 
+}
+
+.btn {
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  color: rgb(0, 255, 106);
+}
+
+.playing {
+  text-align: center;
+}
+.box {
+						border: 3px solid #000; /* Black border */
+						padding: 20px; 
+						display: auto; /* Space inside the border */
+						width: auto;
+						height: 600px;          /* Width of the box */
+						margin: flex ;      /* Center the box */
+						border-radius: 15px;
+						text-align: center;
+						text-height: 15px;
+						text-decoration: 10px;/* Center the text inside the box */
+						background-color: grey; /* Light gray background */
+				}
+.text-box {
+						border: 3px solid #000; /* Black border */
+						padding: 40px;          /* Space inside the border */
+						width: auto;           /* Width of the box */
+						height: auto;
+						margin: flex ;      /* Center the box */
+						border-radius: 15px;
+						text-align: left;     /* Center the text inside the box */
+						background-color: grey; /* Light gray background */
+						
+				}
+	body{
+  margin: 0px;
+}
+main{
+  margin-left 30px;
+  margin-right: 30px;
+}
+h1{
+  text-align: center;
+}				
+	.navbar ul{
+	  list-style-type: none;
+	  background-color: Gray;
+	  padding: auto;
+	  margin: auto;
+	  overflow: hidden;
+	}
+	.navbar a{
+	  color: white;
+	  text-decoration: none;
+	  padding: 26px;
+	  display: block;
+	  text-align: center;
+	}
+.navbar a:hover{
+	  background-color: Gray;
+	}
+	.navbar li{
+	  float: left;
+	}			
+
