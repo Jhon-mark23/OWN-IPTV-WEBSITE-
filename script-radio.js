@@ -11,6 +11,10 @@ const radio10 = new Audio('http://stream-30.zeno.fm/sh37pvfd938uv?zs=9-6MPUdoSDu
 const radio11 = new Audio('http://stream-12.zeno.fm/2ss1hgnu6hhvv?zs=zu9MieNWTsuFyoR5UOZSPw');
 const radio12 = new Audio('https://ph-icecast-win.eradioportal.com:8443/energyfm_manila');
 const radio13 = new Audio('http://stream.gmanews.tv/ioslive/livestream/playlist.m3u8');
+const radio14 = new Audio('http://122.53.138.32:8000/dzrm.mp3');
+const radio15 = new Audio('http://s3.free-shoutcast.com/stream/18342/;?nocache=40&type=http');
+const radio16 = new Audio('https://s5.radio.co/s49bbdfa2a/listen');
+const radio17 = new Audio('http://sg-icecast.eradioportal.com:8000/febc_dzfe');
 
 // selecting elements
 const prevBtn = document.querySelector('.previous');
@@ -34,6 +38,10 @@ const songs = [
   { ele: radio11, audioName: 'WIN RADIO'},
   { ele: radio12, audioName: 'ENERGY FM'},
   { ele: radio13, audioName: 'DZBB'},
+  { ele: radio14, audioName: 'REPUBLIKA FM 87.5'},
+  { ele: radio15, audioName: '94.7 MELLOW'},
+  { ele: radio16, audioName: '95.5 EAGLE FM'},
+  { ele: radio17, audioName: '98.7 THE MASTER’S TOUCH'},
 ];
 
 for(const song of songs) {
