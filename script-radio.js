@@ -15,6 +15,12 @@ const radio14 = new Audio('http://122.53.138.32:8000/dzrm.mp3');
 const radio15 = new Audio('http://s3.free-shoutcast.com/stream/18342/;?nocache=40&type=http');
 const radio16 = new Audio('https://s5.radio.co/s49bbdfa2a/listen');
 const radio17 = new Audio('http://sg-icecast.eradioportal.com:8000/febc_dzfe');
+const radio18 = new Audio('https://stream.zeno.fm/dphe9050afhvv');
+const radio19 = new Audio('http://stream-145.zeno.fm/wp3e88sqtuquv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ3cDNlODhzcXR1cXV2IiwiaG9zdCI6InN0cmVhbS0xNDUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6ImNjRE');
+const radio20 = new Audio('https://de3.amfmph.com:8133/stream'); 
+const radio21 = new Audio('https://chloreign.com/listen/sanibpwersa/radio.mp3');
+const radio22 = new Audio('https://castk.tunzilla.com/https://s5.myradiostream.com/43098/listen.mp3');
+
 
 // selecting elements
 const prevBtn = document.querySelector('.previous');
@@ -42,6 +48,12 @@ const songs = [
   { ele: radio15, audioName: '94.7 MELLOW'},
   { ele: radio16, audioName: '95.5 EAGLE FM'},
   { ele: radio17, audioName: '98.7 THE MASTER’S TOUCH'},
+  { ele: radio18, audioName: 'BARANGGAY LS'},
+  { ele: radio19, audioName: 'BOMBO RADIO'},
+{ ele: radio20, audioName: '105.9 WILD FM'},
+{ ele: radio21, audioName: 'HEART FM'},
+{ ele: radio22, audioName: '88.7 DCG-FM'},
+  
 ];
 
 for(const song of songs) {
