@@ -3,7 +3,7 @@ body {
   background-color: #1c1c1c;
   color: white;
  width: auto;
- padding: 1px;
+ padding: 2px;
  
 }
 
@@ -19,6 +19,7 @@ body {
 .controls {
   display: flex;
   justify-content: center;
+  padding-bottom: 25px;
 }
 
 .btn:hover {
@@ -30,7 +31,7 @@ body {
 }
 .box {
 						border: 3px solid #000; /* Black border */
-						padding: 20px; 
+						padding: 20px;
 						display: auto; /* Space inside the border */
 						width: auto;
 						height: 600px;          /* Width of the box */
@@ -43,7 +44,7 @@ body {
 				}
 .text-box {
 						border: 3px solid #000; /* Black border */
-						padding: 40px;          /* Space inside the border */
+						padding: 40px;        /* Space inside the border */
 						width: auto;           /* Width of the box */
 						height: auto;
 						margin: flex ;      /* Center the box */
@@ -75,6 +76,8 @@ h1{
 	  padding: 26px;
 	  display: block;
 	  text-align: center;
+	  border: solid black;
+	  border-radius: 15px;
 	}
 .navbar a:hover{
 	  background-color: Gray;
@@ -82,4 +85,3 @@ h1{
 	.navbar li{
 	  float: left;
 	}			
-
