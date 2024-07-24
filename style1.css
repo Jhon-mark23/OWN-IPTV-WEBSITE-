@@ -44,7 +44,7 @@ body {
 				}
 .text-box {
 						border: 3px solid #000; /* Black border */
-						padding: 40px;        /* Space inside the border */
+						padding: 20px;        /* Space inside the border */
 						width: auto;           /* Width of the box */
 						height: auto;
 						margin: flex ;      /* Center the box */
